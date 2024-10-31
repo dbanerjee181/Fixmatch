@@ -27,7 +27,7 @@ from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
 from dataset.cifar import DATASET_GETTERS
-from utils.functions import AverageMeter, accuracy
+from utils.misc import AverageMeter, accuracy
 
 logger = logging.getLogger(__name__)
 best_acc = 0
