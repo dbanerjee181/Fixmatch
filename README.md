@@ -37,8 +37,8 @@ The principal scripts that are used are
 
 The example commmand to run them is 
 
-!python /content/Fixmatch/train_modified.py --dataset svhn --num-labeled 1000 --arch wideresnet --batch-size 16 --total-steps 64 --eval-step 16  --lr 0.03 --expand-labels --seed 5 --out results/cifar10_flexmatch@1000.5
+!python /content/Fixmatch/train_modified.py --dataset svhn --num-labeled 1000 --arch wideresnet --lr 0.03 --expand-labels --seed 5 --out results/cifar10_fixmatch@1000.5
 
-!python /content/Fixmatch/train_modified_flexmatch.py --dataset svhn --num-labeled 1000 --arch wideresnet --batch-size 16 --lr 0.03 --expand-labels --seed 5 --out results/cifar10_flexmatch@1000.5
+!python /content/Fixmatch/train_modified_flexmatch.py --dataset svhn --num-labeled 1000 --arch wideresnet --lr 0.03 --expand-labels --seed 5 --out results/cifar10_flexmatch@1000.5
 
 
