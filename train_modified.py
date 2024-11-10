@@ -524,7 +524,7 @@ def train(args, labeled_trainloader, unlabeled_trainloader, test_loader,
                     loss_x=losses_x.avg,
                     loss_u=losses_u.avg,
                     mask=mask_probs.avg,
-                    mask_count = mask.sum))
+                    mask_count = mask.detach().sum()))
                 p_bar.update()
 
         #no progress closing
