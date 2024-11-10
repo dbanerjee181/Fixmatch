@@ -21,3 +21,24 @@ To clone the repository the following command can be used
 -- git clone <path of the repository>
 
 
+**2. Running the code:**
+
+At present the code is supported for the following datasets
+
+CIFAR10
+CIFAR100
+SVHN
+STL10
+
+The principal scripts that are used are
+
+1. train_modified.py - This is the modified Fixmatch implementation with the augmentation change only
+2. train_modified_flexmatch.py - This is the  modified Fixmatch implementation with the augmentation change and the adaptive thresholding.
+
+The example commmand to run them is 
+
+!python /content/Fixmatch/train_modified.py --dataset svhn --num-labeled 1000 --arch wideresnet --batch-size 16 --total-steps 64 --eval-step 16  --lr 0.03 --expand-labels --seed 5 --out results/cifar10_flexmatch@1000.5
+
+!python /content/Fixmatch/train_modified_flexmatch.py --dataset svhn --num-labeled 1000 --arch wideresnet --batch-size 16 --lr 0.03 --expand-labels --seed 5 --out results/cifar10_flexmatch@1000.5
+
+
