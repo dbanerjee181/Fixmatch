@@ -103,7 +103,7 @@ def main():
                         help='number of workers')
     # Dataset to use: 'cifar10', 'svhn', 'stl10', 'mnist' and 'cifar100'
     parser.add_argument('--dataset', default='cifar10', type=str,
-                        choices=['cifar10', 'cifar100','svhn','mnist','stl10'],
+                        choices=['cifar10', 'cifar100','svhn','stl10'],
                         help='dataset name')
     # Number of labeled samples
     parser.add_argument('--num-labeled', type=int, default=4000,
