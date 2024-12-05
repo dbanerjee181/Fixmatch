@@ -12,6 +12,8 @@ FixMatch is a semi-supervised learning method that leverages a combination of st
 
 This repository provides a modified version of the original FixMatch implementation, with adjustments for better compatibility with Google Colab and specific datasets.
 
+The code and its utilities are described in the video ECE57000_Fixmatch.mp4.
+
 ## Usage
 
 **1. Cloning the Repository:**
@@ -21,7 +23,7 @@ To clone the repository the following command can be used
 -- git clone <path of the repository>
 
 
-**2. Running the code:**
+**2. Running the code:** 
 
 At present the code is supported for the following datasets
 
